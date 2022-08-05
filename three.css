@@ -38,30 +38,7 @@ a:hover{
 
 
 
-.transition-fade{
-  opacity: 1;
-  transition: 500ms;
-}
 
-html .is-animating .transition-fade{
-  opacity: 0;
-}
-
-
-.transition-2 {
-  position: fixed;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  bottom: 0;
-  z-index: 101;
-  background-color:#F2F2F2;
-  transition: 0.6s ease-out;
-}
-
-.transition-2.is-active {
-  left: 0px;
-}
 /* nav bar */
 
 .content{
